@@ -1,0 +1,13 @@
+<%- include('../partials/head.ejs') %>
+<body>
+    <div class="page-full bg-dark text-white">
+        <div class="content text-center">
+            <h1>Dashboard</h1>
+            <p>Welcome <strong><%= locals.user %></strong></p>
+            <div>
+                <a href="/logout" class="btn btn-primary">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
